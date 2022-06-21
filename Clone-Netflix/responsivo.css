@@ -1,0 +1,52 @@
+@media screen and ( max-width: 700px) {
+    .carrosel-filmes{
+        margin-top: 5px;
+    }
+
+    header nav{
+        display: none;
+    }
+    .toggle{
+        display: flex;
+        
+    }
+    .descricao{
+        width: 60%;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+    .descricao{
+        font-size: 12px;
+    }
+
+    .botao{
+        font-size: 10px;
+    }
+
+   .box-img{
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+   }
+
+   .nav-mobile{
+    position: absolute;
+    left: 30%;
+    display: flex;
+    font-size: 14px;
+    transition: 1s;
+   }
+   .opacidade{
+    transition: 2s;
+    display: none;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao{
+        width: 50%;
+    }
+}
+
